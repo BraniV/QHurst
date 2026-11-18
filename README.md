@@ -3,8 +3,6 @@
 Estimating Hurst Ecponent with Quantum Wavelets
 # Hurst Exponent Estimation with Quantum Wavelets
 
-Research code by **Brani Vidakovic**, Department of Statistics, Texas A&M University.
-
 QHurst estimates the Hurst exponent $H$ of fractional Brownian motion from repeated preparations of a **single amplitude-encoded path**. Each preparation encodes the same realization. A one-qubit mirror extension removes the endpoint jump before the wavelet transform, and wavelet energy shares across the fine scales are used to estimate $H$.
 
 The code covers decimated and nondecimated quantum wavelet transforms, direct computational-basis readout, ancilla-based Hadamard level tests, and maximum-likelihood amplitude estimation (MLAE). The numerical study compares the readouts on the same records at equal preparation-query budgets. MLAE uses coherent access to both the preparation circuit and its inverse.
